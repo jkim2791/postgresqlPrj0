@@ -44,9 +44,8 @@ start_time, hour, day, week, month, year, weekday
 
 
 ## 4. Project Template
-test.ipynb displays the first few rows of each table to let you check your database.
-
-* `create_tables.py` drops and creates tables
+* `test.ipynb` displays the first few rows of each table to check the database.
+* `create_tables.py` drops and creates tables.
 * `etl.ipynb` reads and processes a single file from song_data and log_data and loads the data into tables. This notebook contains detailed instructions on the ETL process for each of the tables.
 * `etl.py` reads and processes files from song_data and log_data and loads them into tables.
 * `sql_queries.py` contains all sql queries, and is imported into the last three files above.

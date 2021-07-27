@@ -51,3 +51,8 @@ start_time, hour, day, week, month, year, weekday
 * `sql_queries.py` contains all sql queries, and is imported into the last three files above.
 * `README.md` provides discussion on this project.
 
+## 5. Implementaion
+
+* Run `create_tables.py` to create database and tables.
+* Run `etl.ipynb` and  `test.ipynb` to check data are inserted collectly
+* Run `etl.py` to insert all log data.
